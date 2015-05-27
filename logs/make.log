@@ -1,0 +1,57 @@
+src/maths.f90:2641:0: warning: ‘strtoupper’ defined but not used [-Wunused-function]
+   Function StrToUpper (input) RESULT (output)
+ ^
+src/maths.f90:2590:0: warning: ‘arraysize1ddouble’ defined but not used [-Wunused-function]
+   Function ArraySize1DDouble (inputArray,arraySize) RESULT (outputArray)
+ ^
+src/maths.f90:2519:0: warning: ‘sort_integer_2d’ defined but not used [-Wunused-function]
+   Subroutine sort_Integer_2D(list, sortRow)
+ ^
+src/maths.f90:2502:0: warning: ‘sort_integer_1d’ defined but not used [-Wunused-function]
+   Subroutine sort_Integer_1D(list)
+ ^
+src/maths.f90:2463:0: warning: ‘swaprows_single_2d’ defined but not used [-Wunused-function]
+   Subroutine swapRows_Single_2D(matrix,rowA,rowB)
+ ^
+src/maths.f90:2452:0: warning: ‘swaprows_single_1d’ defined but not used [-Wunused-function]
+   Subroutine swapRows_Single_1D(matrix,rowA,rowB)
+ ^
+src/maths.f90:1719:0: warning: ‘squaretocol’ defined but not used [-Wunused-function]
+   Function SquareToCol(squareMatrix) RESULT (columnMatrix)
+ ^
+src/maths.f90:1683:0: warning: ‘coltosquare’ defined but not used [-Wunused-function]
+   Function ColToSquare(columnMatrix) RESULT (squareMatrix)
+ ^
+src/maths.f90:1634:0: warning: ‘mataddq’ defined but not used [-Wunused-function]
+   Function MatAddQ(xMatrix,yMatrix) RESULT (oMatrix)
+ ^
+src/maths.f90:1322:0: warning: ‘splinecomplete’ defined but not used [-Wunused-function]
+   Function SplineComplete(inputPoints,interpSizeIn) RESULT (splinePoints)
+ ^
+src/mMaths.f90:168:0: warning: ‘m_birchmurnfitbp’ defined but not used [-Wunused-function]
+   Function M_BirchMurnFitBP(points, coefficientsIn) RESULT (coefficients)
+ ^
+src/initialise.f90:250:0: warning: ‘clocktime’ defined but not used [-Wunused-function]
+   Function ClockTime () RESULT (outputTime)
+ ^
+src/initialise.f90:241:0: warning: ‘outputprogramtime’ defined but not used [-Wunused-function]
+   Function OutputProgramTime () RESULT (outputTime)
+ ^
+src/output.f90:254:0: warning: ‘outputdata’ defined but not used [-Wunused-function]
+   Subroutine outputData(fileName, dataPoints)
+ ^
+src/readEAM.f90:858:0: warning: ‘seteamsplineopt’ defined but not used [-Wunused-function]
+   Subroutine setEamSplineOpt()
+ ^
+src/readConfig.f90:1045:0: warning: ‘queryfunctiontype’ defined but not used [-Wunused-function]
+   Function QueryFunctionType (functionType) RESULT (output)
+ ^
+src/neighbourList.f90:267:0: warning: ‘storecnl’ defined but not used [-Wunused-function]
+   Subroutine storeCNL()
+ ^
+src/testEAM.f90:603:0: warning: ‘vacancyenergy’ defined but not used [-Wunused-function]
+   Subroutine vacancyEnergy()
+ ^
+src/optimise.f90:1114:0: warning: ‘scaleembeddingtest’ defined but not used [-Wunused-function]
+   Subroutine scaleEmbeddingTest()
+ ^
